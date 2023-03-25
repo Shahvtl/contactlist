@@ -1,6 +1,6 @@
 # This is the React Contact List App to manage contacts using Redux
 
-The user can Add, Edit, Update and Delete the contact here using the dummy API.
+### The user can Add, Edit, Update and Delete the contact here using the dummy API.
 
 ## Features
 
