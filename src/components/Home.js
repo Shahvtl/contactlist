@@ -18,11 +18,16 @@ const Home = () => {
         <div className='container'>
             <div className='row'>
                 <div className='col-md-12 my-5 text-end'>
-                    <Link to='/add' className='btn btn-outline-dark'>Add Contact</Link>
+                    <Link to='/add' className='btn btn-outline-dark' style={{
+        backgroundColor: 'blue',
+        border: '2px solid red',
+        color: 'white',
+        fontWeight: 'bold',
+    }}>Add Contact</Link>
                 </div>
                 <div className='col-md-10 mx-auto'>
                     <table className='table table-hover'>
-                        <thead className='text-white bg-dark text-center'>
+                        <thead className='bg-red text-black text-center'>
                             <tr>
                                 <th scope='col'>#</th>
                                 <th scope='col'>Name</th>
